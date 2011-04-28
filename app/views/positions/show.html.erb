@@ -8,9 +8,9 @@
       <h2><%= @position.summary %></h2>
       <p><%= @position.description %></p>
 			
-			<a class="apply-button">
-				<img src="/images/apply.png" alt="Apply now!">
-			</a>
+			<div id="apply-email">
+				<p><strong>Email your application to <a href="mailto:careers@codefire.com.au">careers@codefire.com.au</a></strong></p>
+			</div>
 			
       <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="codefire" data-related="adelaiderb:Adelaide Ruby User Group">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
       <iframe src="http://www.facebook.com/plugins/like.php?href=<%= position_url(@position) %>&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=arial&amp;height=35&amp;ref=<%=@position.to_param %>" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:25px;" allowTransparency="true"></iframe>
