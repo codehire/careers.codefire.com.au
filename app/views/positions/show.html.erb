@@ -6,7 +6,7 @@
 
       <h1><%= @position.title %></h1>
       <h2><%= @position.summary %></h2>
-      <p><%= @position.description %></p>
+      <p><%= raw(@position.description) %></p>
 			
 			<div id="apply-email">
 				<p><strong>Email your application to <a href="mailto:careers@codefire.com.au">careers@codefire.com.au</a></strong></p>
