@@ -104,3 +104,20 @@ footer img.icon:active{position:relative;top:10px;}
 aside #pics {
 	padding-top:20px;
 }
+
+aside #pics img {
+	padding-bottom:5px;
+	filter: url(http://localhost:3000/resources.svg#desaturate);
+	transition:all 0.1s linear;
+	-webkit-transition:all 0.1s linear;
+	-moz-transition:all 0.1s linear;
+	-o-transition:all 0.1s linear;
+}
+
+aside #pics img:hover {
+	filter:none;
+	transition:all 0.1s linear;
+	-webkit-transition:all 0.1s linear;
+	-moz-transition:all 0.1s linear;
+	-o-transition:all 0.1s linear;
+}
